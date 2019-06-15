@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+require 'helloworld_dh'
+
+puts HelloworldDh.hi(ARGV[0])

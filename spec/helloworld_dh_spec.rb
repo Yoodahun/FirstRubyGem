@@ -4,6 +4,7 @@ RSpec.describe HelloworldDh do
   end
 
   it "does something useful" do
-    expect(false).to eq(true)
+    expect(HelloworldDh.hi).to eq("Hellow World ! This is my First Gem !!!")
+
   end
 end
